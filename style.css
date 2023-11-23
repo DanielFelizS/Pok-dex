@@ -1,0 +1,155 @@
+:root{
+    --clr-black: #1c1c1c;
+    --clr-gray: #ececec;
+    --clr-white: #f7f7f7;
+
+    --normal: #A8A878;
+    --fuego: #f08030;
+    --planta: #7bc850;
+    --agua: #6890f0;
+    --electrico: #f8d030;
+    --lucha: #c03028;
+    --hielo: #98d8d8;
+    --veneno: #a040ab;
+    --acero: #bbb8d8;
+    --dragon: #7038f8;
+    --hada: #f0b6bc;
+    --roca: #bba038;
+    --tierra: #e0c068;
+    --bicho: #a8b920;
+    --volador: #a890f0;
+    --psiquico: #f85888;
+    --siniestro: #705848;
+    --fantasma: #705898;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-black);
+    /* font-family: 'Rubik', 'sans-serif';
+     */
+    font-family: sans-serif;
+
+}
+#pokemon-datos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cambiar el número de columnas según sea necesario */
+    grid-gap: 10px;
+    
+}
+.pokemon{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.pokemon button{
+    background-color:  transparent;
+    border: 0;
+    border-radius: 0;
+    padding: .6rem;
+    border-radius: 100vmax;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-tipos button{
+    background-color:  transparent;
+    border: 0;
+    border-radius: 0;
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+}
+#first-pokemon{
+    background-color:  transparent;
+    border: 0;
+    border-radius: 0;
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    background-color: red;
+    color: var(--clr-white);
+
+}
+
+/* .btn-tipos{
+    background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+} */
+
+#water{
+    color: var(--clr-white);
+    background-color: var(--agua) ;
+}
+#fire{
+    color: var(--clr-black);
+    background-color: var(--fuego) ;
+}
+#normal{
+    color: var(--clr-black);
+    background-color: var(--normal) ;
+}
+#grass{
+    color: var(--clr-black);
+    background-color: var(--planta) ;
+}
+#electric{
+    color: var(--clr-black);
+    background-color: var(--electrico) ;
+}
+#ice{
+    color: var(--clr-black);
+    background-color: var(--hielo) ;
+}
+#poison{
+    color: var(--clr-white);
+    background-color: var(--veneno) ;
+}
+#fighting{
+    color: var(--clr-white);
+    background-color: var(--lucha) ;
+}
+#flying{
+    color: var(--clr-black);
+    background-color: var(--volador) ;
+}
+#rock{
+    color: var(--clr-black);
+    background-color: var(--roca) ;
+}
+#ground{
+    color: var(--clr-black);
+    background-color: var(--tierra) ;
+}
+#steel{
+    color: var(--clr-black);
+    background-color: var(--acero) ;
+}
+#dragon{
+    color: var(--clr-white);
+    background-color: var(--dragon) ;
+}
+#fairy{
+    color: var(--clr-black);
+    background-color: var(--hada) ;
+}
+#bug{
+    color: var(--clr-black);
+    background-color: var(--bicho) ;
+}
+#ghost{
+    color: var(--clr-white);
+    background-color: var(--fantasma) ;
+}
+#psychic{
+    color: var(--clr-black);
+    background-color: var(--psiquico) ;
+}
+#dark{
+    color: var(--clr-white);
+    background-color: var(--siniestro) ;
+}

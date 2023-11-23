@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <h1>Pokédex</h1>
+    <label for="buscar">Buscar: </label> <br>
+    <input type="text" placeholder="Escriba el nombre o el Id" id="search"> <br>
+    <button id="btn">Ver pokemon</button> 
+    <br>
+    <br>
+    <button id="first-pokemon" onclick="mostrarPokemons()">151 Pokémon</button>
+    <div class="btn-tipos">
+        <button id="water">Agua</button>
+        <button id="grass">Planta</button>
+        <button id="fire">Fuego</button>
+        <button id="fighting">Lucha</button>
+        <button id="electric">Eléctrico</button>
+        <button id="flying">Volador</button>
+        <button id="bug">Bicho</button>
+        <button id="poison">Veneno</button>
+        <button id="normal">Normal</button>
+        <button id="rock">Roca</button>
+        <button id="ground">Tierra</button>
+        <button id="ice">Hielo</button>
+        <button id="ghost">Fantasma</button>
+        <button id="psychic">Psíquico</button>
+        <button id="dark">Siniestro</button>
+        <button id="fairy">Hada</button>
+        <button id="dragon">Dragón</button>
+        <button id="steel">Acero</button>
+    </div>
+    <br>
+    <div id="pokemon-datos">
+        <p></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
